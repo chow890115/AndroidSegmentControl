@@ -14,7 +14,7 @@ A android custom view works like SegmentControl in IOS
         android:layout_height="wrap_content"
         android:textSize="15sp"
         segmentcontrol:texts="未签到|全部|已签到" <!--标签的内容-->
-        segmentcontrol:colors="#e00032"
+        segmentcontrol:selectedBackgroundColors="#e00032"<!--被选中按钮的背景-->
         segmentcontrol:cornerRadius="5dip"
         segmentcontrol:direction="horizon" <!--标签的显示的方向-->
         segmentcontrol:verticalGap="8dip"
@@ -25,7 +25,7 @@ A android custom view works like SegmentControl in IOS
 
 ``` Java
 SegmentControl segmentControl = (SegmentControl) findViewById(R.id.segment_control);
-segmentControl.setmOnSegmentControlClickListener(new SegmentControl.OnSegmentControlClickListener() {
+segmentControl.setOnSegmentControlClickListener(new SegmentControl.OnSegmentControlClickListener() {
     @Override 
     public void onSegmentControlClick(int index) {
         //处理点击标签的事件
