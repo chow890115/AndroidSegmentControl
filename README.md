@@ -37,7 +37,7 @@ segmentControl.setOnSegmentControlClickListener(new SegmentControl.OnSegmentCont
 ## Screen snapshot
 ![snapshot](https://github.com/liuhuibin/AndroidSegmentControl/blob/master/.raw/snapshot.jpg)
 
-* License
+License
 ============
 
     The MIT License (MIT)
